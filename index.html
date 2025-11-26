@@ -9,9 +9,9 @@
 
 <body>
     <header>
-        <nav class="navbar" role="navigation" aria-label="Main navigation">
-            <div class="brand">My Site</div>
-            <div class="nav-links">
+        <nav>
+            <div>My Site</div>
+            <div>
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#about">About</a></li>
@@ -53,11 +53,64 @@
                 <li>Second item</li>
                 <li>Third item</li>
             </ul>
-            <pre><code>&lt;ul&gt;
-  &lt;li&gt;Item 1&lt;/li&gt;
-  &lt;li&gt;Item 2&lt;/li&gt;
-&lt;/ul&gt;</code></pre>
         </section>
+
+        <section id="more-tags">
+            <h2>&lt;form&gt; — Form</h2>
+            <p>Simple contact form (no server):</p>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your name">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com">
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>&lt;table&gt; — Table</h2>
+            <p>Tabular data example:</p>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Apple</td>
+                        <td>$1.00</td>
+                    </tr>
+                    <tr>
+                        <td>Banana</td>
+                        <td>$0.50</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>&lt;blockquote&gt; — Quotation</h2>
+            <p>Blockquote for longer quotations:</p>
+            <blockquote cite="https://example.com">“This is an example quotation to show the &lt;blockquote&gt; element.”</blockquote>
+        </section>
+
+        <section>
+            <h2>&lt;strong&gt; &amp; &lt;em&gt; — Importance & Emphasis</h2>
+            <p>Use <strong>strong</strong> for important text and <em>em</em> for emphasis.</p>
+        </section>
+
+        <section>
+            <h2>&lt;footer&gt; — Page Footer</h2>
+            <p>Example footer content placed in a footer element:</p>
+            <footer>
+                <p>&copy; 2025 My Site</p>
+            </footer>
+        </section>
+
         <button>Click Me</button>
         <button>Contact With Me</button>
     </main>
