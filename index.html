@@ -111,6 +111,47 @@
             </footer>
         </section>
 
+        <section id="images-and-common">
+            <h2>&lt;img&gt; — Images and Common Tags</h2>
+            <p>Different ways to include images and other commonly used tags.</p>
+
+            <h3>Basic &lt;img&gt;</h3>
+            <p>An image with alt text and lazy loading:</p>
+            <img src="https://via.placeholder.com/200" alt="Placeholder 200x200" width="200" loading="lazy">
+            <pre><code>&lt;img src="image.jpg" alt="Description" width="200" loading="lazy"&gt;</code></pre>
+
+            <h3>&lt;figure&gt; &amp; &lt;figcaption&gt;</h3>
+            <p>Group an image with a caption:</p>
+            <figure>
+                <img src="https://via.placeholder.com/300x150" alt="Example figure">
+                <figcaption>Figure: placeholder image with caption.</figcaption>
+            </figure>
+            <pre><code>&lt;figure&gt;
+  &lt;img src="..." alt="..."&gt;
+  &lt;figcaption&gt;Caption&lt;/figcaption&gt;
+&lt;/figure&gt;</code></pre>
+
+            <picture>
+                <source media="(min-width:800px)" srcset="https://via.placeholder.com/600x200">
+                <img src="https://via.placeholder.com/400x150" alt="Responsive example">
+            </picture>
+
+            <h3>&lt;details&gt; &amp; &lt;summary&gt;</h3>
+            <p>Collapsible disclosure widget:</p>
+            <details>
+                <summary>More info</summary>
+                <p>This content is hidden until the user expands the details.</p>
+            </details>
+
+            <h3>&lt;time&gt;</h3>
+            <p>Machine-readable date/time:</p>
+            <time datetime="2025-11-27">November 27, 2025</time>
+
+            <h3>&lt;script&gt; (example)</h3>
+            <p>Small inline script (keeps page interactive):</p>
+            <script>console.log('Example script: page loaded');</script>
+        </section>
+
         <button>Click Me</button>
         <button>Contact With Me</button>
     </main>
