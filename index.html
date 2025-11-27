@@ -33,20 +33,20 @@
         </section>
 
         <section>
-            <h2>&lt;a&gt; — Anchor / Link</h2>
+            <h2>a — Anchor / Link</h2>
             <p>Links allow navigation to other pages or resources: <a href="https://example.com" target="_blank"
                     rel="noopener">Visit example.com</a></p>
         </section>
 
         <section>
-            <h2>&lt;img&gt; — Image</h2>
+            <h2>img — Image</h2>
             <p>Images display pictures. Always include a meaningful <code>alt</code> attribute.</p>
             <img src="https://img.freepik.com/free-photo/multi-colored-creativity-close-up-human-eye-generated-by-ai_188544-15574.jpg?semt=ais_hybrid&w=1000&q=80"
                 alt="Placeholder image">
         </section>
 
         <section>
-            <h2>&lt;ul&gt; &lt;li&gt; — Unordered List</h2>
+            <h2>ul li — Unordered List</h2>
             <p>Lists group related items.</p>
             <ul>
                 <li>First item</li>
@@ -56,7 +56,7 @@
         </section>
 
         <section id="more-tags">
-            <h2>&lt;form&gt; — Form</h2>
+            <h2>form — Form</h2>
             <p>Simple contact form (no server):</p>
             <form action="#" method="post">
                 <label for="name">Name:</label>
@@ -70,7 +70,7 @@
         </section>
 
         <section>
-            <h2>&lt;table&gt; — Table</h2>
+            <h2>table — Table</h2>
             <p>Tabular data example:</p>
             <table border="1">
                 <thead>
@@ -93,18 +93,18 @@
         </section>
 
         <section>
-            <h2>&lt;blockquote&gt; — Quotation</h2>
+            <h2>blockquote — Quotation</h2>
             <p>Blockquote for longer quotations:</p>
-            <blockquote cite="https://example.com">“This is an example quotation to show the &lt;blockquote&gt; element.”</blockquote>
+            <blockquote cite="https://example.com">“This is an example quotation to show the blockquote element.”</blockquote>
         </section>
 
         <section>
-            <h2>&lt;strong&gt; &amp; &lt;em&gt; — Importance & Emphasis</h2>
+            <h2>strong &amp; em — Importance & Emphasis</h2>
             <p>Use <strong>strong</strong> for important text and <em>em</em> for emphasis.</p>
         </section>
 
         <section>
-            <h2>&lt;footer&gt; — Page Footer</h2>
+            <h2>footer — Page Footer</h2>
             <p>Example footer content placed in a footer element:</p>
             <footer>
                 <p>&copy; 2025 My Site</p>
@@ -112,42 +112,42 @@
         </section>
 
         <section id="images-and-common">
-            <h2>&lt;img&gt; — Images and Common Tags</h2>
+            <h2>img — Images and Common Tags</h2>
             <p>Different ways to include images and other commonly used tags.</p>
 
-            <h3>Basic &lt;img&gt;</h3>
+            <h3>Basic img</h3>
             <p>An image with alt text and lazy loading:</p>
             <img src="https://via.placeholder.com/200" alt="Placeholder 200x200" width="200" loading="lazy">
-            <pre><code>&lt;img src="image.jpg" alt="Description" width="200" loading="lazy"&gt;</code></pre>
+            <pre><code>img src="image.jpg" alt="Description" width="200" loading="lazy"</code></pre>
 
-            <h3>&lt;figure&gt; &amp; &lt;figcaption&gt;</h3>
+            <h3>figure &amp; figcaption</h3>
             <p>Group an image with a caption:</p>
             <figure>
                 <img src="https://via.placeholder.com/300x150" alt="Example figure">
                 <figcaption>Figure: placeholder image with caption.</figcaption>
             </figure>
-            <pre><code>&lt;figure&gt;
-  &lt;img src="..." alt="..."&gt;
-  &lt;figcaption&gt;Caption&lt;/figcaption&gt;
-&lt;/figure&gt;</code></pre>
+            <pre><code>figure
+  img src="..." alt="..."
+  figcaptionCaption/figcaption
+/figure</code></pre>
 
             <picture>
                 <source media="(min-width:800px)" srcset="https://via.placeholder.com/600x200">
                 <img src="https://via.placeholder.com/400x150" alt="Responsive example">
             </picture>
 
-            <h3>&lt;details&gt; &amp; &lt;summary&gt;</h3>
-            <p>Collapsible disclosure widget:</p>
-            <details>
-                <summary>More info</summary>
-                <p>This content is hidden until the user expands the details.</p>
-            </details>
+            <h3>Just Tags (no details/summary)</h3>
+            <p>Common HTML tags shown plainly (no explanations):</p>
+            <pre><code>header nav main section article aside footer
+h1 h2 h3 p a img ul li ol li
+form input button label table tr td th
+code pre time figure figcaption</code></pre>
 
-            <h3>&lt;time&gt;</h3>
+            <h3>time</h3>
             <p>Machine-readable date/time:</p>
             <time datetime="2025-11-27">November 27, 2025</time>
 
-            <h3>&lt;script&gt; (example)</h3>
+            <h3>script (example)</h3>
             <p>Small inline script (keeps page interactive):</p>
             <script>console.log('Example script: page loaded');</script>
         </section>
